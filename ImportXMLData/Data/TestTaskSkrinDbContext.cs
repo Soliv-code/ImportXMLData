@@ -19,7 +19,7 @@ namespace ImportXMLData.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Да, я знаю что это не безопасно, но ещё ни разу в жизни не приходилось делать DbContext в консольном приложении
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=TestTaskSkrin;Trusted_Connection=False;User Id=sa;Password=ILyaoff12345@;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=TestTaskSkrin;Trusted_Connection=False;User Id=sa;Password=12345;TrustServerCertificate=True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
