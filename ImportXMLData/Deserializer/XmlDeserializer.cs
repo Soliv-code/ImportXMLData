@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace ImportXMLData.Deserializer
 {
-    public class XmlDeserializer
+    public class XmlDeserializer : IXmlDeserializer
     {
         public List<XmlOrder> Deserialize(string filePath)
         {

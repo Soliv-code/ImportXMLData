@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ImportXMLData.Validator
 {
-    public class DataValidator
+    public class DataValidator : IDataValidator
     {
         private readonly string _lineBreakCheckFile = " \n Проверьте загружаемый XML-файл";
         public void Validate(List<XmlOrder> orders)

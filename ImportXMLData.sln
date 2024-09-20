@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportXMLData", "ImportXMLData\ImportXMLData.csproj", "{AB68F5DE-302B-47F8-B1B3-B28417F5FDC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImportXMLData", "ImportXMLData\ImportXMLData.csproj", "{AB68F5DE-302B-47F8-B1B3-B28417F5FDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportXMLData.Tests", "ImportXMLData.Tests\ImportXMLData.Tests.csproj", "{60796654-F4D6-4A2F-970C-9F434EA3EF43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB68F5DE-302B-47F8-B1B3-B28417F5FDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB68F5DE-302B-47F8-B1B3-B28417F5FDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB68F5DE-302B-47F8-B1B3-B28417F5FDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60796654-F4D6-4A2F-970C-9F434EA3EF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60796654-F4D6-4A2F-970C-9F434EA3EF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60796654-F4D6-4A2F-970C-9F434EA3EF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60796654-F4D6-4A2F-970C-9F434EA3EF43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
